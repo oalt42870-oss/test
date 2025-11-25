@@ -1,0 +1,20 @@
+<html>
+<body>
+<form name="room">
+<script>
+
+function area_room(length,width)
+{document.room.area.value= length * width}
+
+</script>
+
+Room Length <input type = text Name="length" Value = "Enter Length" size="7"
+OnChange="area_room(document.room.length.value,document.room.width.value)">
+Room Width <input type = text Name="width" Value = "Enter Width" size="7"
+OnChange="area_room(document.room.length.value,document.room.width.value)">
+
+Room Area <input type= text Name ="area" Value="" size="7" >
+</form>
+
+</body>
+</html>
